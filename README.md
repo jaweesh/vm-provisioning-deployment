@@ -1,5 +1,3 @@
-automate-vm-deployment
-=============================
 
 ## Provision & deploy a Windows 10 vm in minutes* 🚀
 
