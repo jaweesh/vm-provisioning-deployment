@@ -24,6 +24,7 @@ The following programs are automatically downloaded and installed, out of the bo
 * Notepad++
 * Sysinternals
 * Custom BGInfo background
+* [Make Windows10 Great Again](https://github.com/clong/MakeWindows10GreatAgain)
 
 
 # Usage

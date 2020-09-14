@@ -1,5 +1,5 @@
 # Purpose: Installs a handful of SysInternals tools on the host into c:\Tools\Sysinternals
-# Also installs Sysmon and Olaf Harton's Sysmon config
+
 
 Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Installing SysInternals Tooling..."
 $sysinternalsDir = "C:\Tools\Sysinternals"
@@ -34,5 +34,3 @@ Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Downloading procexp64.exe..."
 
 Write-Host "$('[{0:HH:mm}]' -f (Get-Date)) Downloading Tcpview.exe..."
 (New-Object System.Net.WebClient).DownloadFile('https://live.sysinternals.com/Tcpview.exe', $tcpviewPath)
-
-
