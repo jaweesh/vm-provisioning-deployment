@@ -63,4 +63,4 @@ The innerwebs is full of similar vagrant files, this is what works for me and yo
 
 [Asim Jaweesh](https://linktr.ee/jaweesh "Profiles")
 
-<img src=shell/profile.png width="100" height="100" > </img>
+<img src=shell/profile.png width="200" height="200" > </img>
