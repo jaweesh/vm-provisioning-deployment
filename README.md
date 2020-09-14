@@ -1,29 +1,67 @@
-# vagrant script
+automate-vm-deployment
+=============================
 
-whoarewe? lazypeople
+## Provision & deploy a Windows 10 vm in minutes* 🚀
 
-whatdowewant? windows10vm
+*Depending on Internet connection speed.
 
-whendowewantit? NOW
+# Description
 
-insert.that.meme.here
+A vagrant file to automatically:
+1. Pull [Windows 10 box](https://app.vagrantup.com/gusztavvargadr/boxes/windows-10 "vagrant cloud")
+2. Configure Windows 10 in VirtualBox.
+3. Provision the Windows 10 VM.
 
-but srsly! 
-lazy and dirty win10 vm for your quick testing pleasures
+The script uses Vagrant to automate the deployment process in the background. With this script, you can deploy a Windows 10 VM on your machine automatically, without having to do all of the painful redundant steps in configuring your Windows VM.
 
 
-#### requirments
+# Included Software
 
-1- virtualbox
+The following programs are automatically downloaded and installed, out of the box:
 
-1.5- vagrant
+* Google Chrome
+* 7zip
+* Notepad++
+* Sysinternals
+* Custom BGInfo background
 
-#### how do i use this?
 
+# Usage
+
+```shell
 git clone https://github.com/jaweesh/AutoVMs.git
 
 cd AutoVMs
 
 vagrant up
+```
 
-2 sips from your nearby cup and u have running win10 machine :)
+# Requirements?
+
+- Vagrant
+- VirtualBox
+
+# Machine Minimum Specs
+
+- CPU: 1 GHz
+- Storage: 20 GB
+- Memory: 2 GB
+
+
+# Supported Platforms
+
+You can deploy an evaluation Window 10 VM  in the following platforms:
+
+- Windows
+- macOS
+- Linux
+
+# Disclaimer
+The innerwebs is full of similar vagrant files, this is what works for me and you can use it for free
+
+# Author
+
+[Asim Jaweesh](https://linktr.ee/jaweesh "Profiles")
+
+
+![Link tree profile](/shell/profile.png)
