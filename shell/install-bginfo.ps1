@@ -15,7 +15,7 @@ $vbsScript = @'
 WScript.Sleep 15000
 Dim objShell
 Set objShell = WScript.CreateObject( "WScript.Shell" )
-objShell.Run("""c:\Program Files\sysinternals\bginfo.exe"" /accepteula ""c:\Program Files\sysinternals\bginfo.bgi"" /silent /timer:0")
+objShell.Run("""c:\Program Files\sysinternals\bginfo.exe"" /accepteula ""C:\vagrant\shell\bginfo.bgi"" /silent /timer:0")
 '@
 
 $vbsScript | Out-File 'c:\Program Files\sysinternals\bginfo.vbs'

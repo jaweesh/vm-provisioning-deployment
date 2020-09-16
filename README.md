@@ -23,14 +23,15 @@ The following programs are automatically downloaded and installed, out of the bo
 * Sysinternals
 * Custom BGInfo background
 * [Make Windows10 Great Again](https://github.com/clong/MakeWindows10GreatAgain)
+* x64dbg Portable
 
 
 # Usage
 
 ```shell
-git clone https://github.com/jaweesh/AutoVMs.git
+git clone https://github.com/jaweesh/vm-provisioning-deployment.git vwin10
 
-cd AutoVMs
+cd vwin10
 
 vagrant up
 ```
